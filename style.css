@@ -1,99 +1,4 @@
-/*body{
-  background-color: white;
-  max-width: 100%;
-  margin: 0 auto;
-  max-height: 100%;
-}
 
-header{
-       margin: 10px green solid;
-    }
-
-.buttonImage{
- text-align: center;
-
-}
-
-p{
-    text-align: center;
-    color:#102C57;
-    font-weight: bold;
-    font-size: large;
-    padding: 0%;
-}
-.button{
-        font-size: larger;
-    color: whitesmoke;    
-    margin:auto;
-    width:fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ;
-    text-align: center;
-     
-}
-#buttonQuote{
-   padding: 0%; 
-   background-color: aliceblue;
-   color: white;
-}
-
-h1{    
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Merriweather', serif;
-    color: #102C57;
-    height: fit-content;
-    margin: auto;
-    padding: 0%;
-}
-img{
-    height: 50%;
-    width: 50%;
-}
-
-footer{
-   position: relative;
-   margin-bottom: 0%;
-   height:fit-content;
-   color:#102C57;
-}
-
-#quotePage{
-    
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-    background-size: cover;
-    
-
-}
-
-#quoteDisplay{
-    color:black;
-    font-weight: bolder;
-  /*  text-shadow: -1px 1px 0 #000, 
-                          1px 1px 0 #000, 
-                         1px -1px 0 #000, 
-                        -1px -1px 0 #000;
-    padding-bottom:10%;
-    text-align: center;
-    padding-top: 10%;
-    font-size: x-large;
-    background-image: url(./assets/lakeforest.jpeg);
-}
-
-.photo{    
-    width: fit-content;
-    height: fit-content;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}*/
 
 body {
     background-color: white;
@@ -147,17 +52,15 @@ h1 {
     
 }
 
-img {
-    height: 60vh;
-    width: 80vh;
-    /* Consider specifying fixed pixel values for more control */
+img{
+    max-width: 100%; /* Set the maximum width to 100% of its container */
+    height: auto; /* Allow the image to maintain its aspect ratio */
     margin-bottom: 5vh;
 }
 
 
-
 #quotePage {
-background: url(./assets/martin-rancourt-IGTbJYQfusY-unsplash-2000-601f1f7ed79e4d5bb5a2b0eb17c154e6.jpg) no-repeat center center;
+background: url(./assets/quote.jpg) no-repeat center center;
     background-size: cover; /* This ensures the image covers the entire div without repeating */ 
     height:80vh;
 }
@@ -183,6 +86,7 @@ footer{
 
 .scrollable-container {
     height: 100vh; /* Adjust as needed */
+    
     overflow-y: auto;
 }
 
